@@ -12,10 +12,9 @@ display.show(Image.HAPPY)
 while True:
     if button_a.is_pressed():
         temp = temperature()
-        temp = (temp + 273.15)
+        temp = temp + 273.15
 
         display.clear()
         display.scroll("The temperature is: " + str(temp) + " K")
 
         display.clear()
-        
